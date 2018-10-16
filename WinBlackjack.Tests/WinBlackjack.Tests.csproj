@@ -38,5 +38,11 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinBlackjack\WinBlackjack.csproj">
+      <Project>{243c661e-bbde-4729-9cf3-ebcd126215c5}</Project>
+      <Name>WinBlackjack</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
