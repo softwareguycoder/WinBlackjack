@@ -14,11 +14,7 @@ namespace WinBlackjack
 
         public override string ToString()
         {
-            var result = GetValueName();
-
-            result += GetSuitName();
-
-            return result;
+            return $"{GetValueName()} of {GetSuitName()}";
         }
 
         private string GetSuitName()
@@ -58,55 +54,55 @@ namespace WinBlackjack
             {
                 case Value.AceHi:
                 case Value.AceLo:
-                    result = "Ace of ";
+                    result = "Ace";
                     break;
 
                 case Value.Two:
-                    result = "Two of ";
+                    result = "Two";
                     break;
 
                 case Value.Three:
-                    result = "Three of ";
+                    result = "Three";
                     break;
 
                 case Value.Four:
-                    result = "Four of ";
+                    result = "Four";
                     break;
 
                 case Value.Five:
-                    result = "Five of ";
+                    result = "Five";
                     break;
 
                 case Value.Six:
-                    result = "Six of ";
+                    result = "Six";
                     break;
 
                 case Value.Seven:
-                    result = "Seven of ";
+                    result = "Seven";
                     break;
 
                 case Value.Eight:
-                    result = "Eight of ";
+                    result = "Eight";
                     break;
 
                 case Value.Nine:
-                    result = "Nine of ";
+                    result = "Nine";
                     break;
 
                 case Value.Ten:
-                    result = "Ten of ";
+                    result = "Ten";
                     break;
 
                 case Value.Jack:
-                    result = "Jack of ";
+                    result = "Jack";
                     break;
 
                 case Value.Queen:
-                    result = "Queen of ";
+                    result = "Queen";
                     break;
 
                 case Value.King:
-                    result = "King of ";
+                    result = "King";
                     break;
 
                 default:
